@@ -20,9 +20,9 @@ This project creates Delani Studio project to help me practice and understand be
 # Installation Process
 Open Terminal {Ctrl+Alt+T}
 
-git clone https://github.com/carol-profile/Akan-Names.git
+git clone https://github.com/carol-profile/Delani-Studio.git
 
-cd Akan-Names
+cd Delani-Studio
 
 code . or atom . based on the text editor you have.
 
