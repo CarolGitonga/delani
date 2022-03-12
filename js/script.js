@@ -15,9 +15,10 @@ function showCustomerMessage() {
 // jQuery
 $(document).ready(function() {
 
+    
     //Preloader
     $(window).on("load", function() {
-        preloaderFadeOutTime = 3000;
+        preloaderFadeOutTime = 5000;
 
         function hidePreloader() {
             var preloader = $('.preloader');
@@ -28,43 +29,46 @@ $(document).ready(function() {
 
     // Design: Hide image and show paragraph
     $(".design-initially-showing").click(function() {
+        
         $(".design-initially-hidden").slideToggle();
-        $(".design-initially-showing").slideToggle();
+        $(".design-initially-showing").slideDown();
     });
 
     // Design: Hide paragraph and show image
     $(".design-initially-hidden").click(function() {
-        $(".design-initially-hidden").slideToggle();
-        $(".design-initially-showing").slideToggle();
+       
+        $(".design-initially-hidden").slideDown();
+       
     });
 
     // Development: Hide image and show paragraph
     $(".dev-initially-showing").click(function() {
         $(".dev-initially-hidden").slideToggle();
-        $(".dev-initially-showing").slideToggle();
+        $(".dev-initially-showing").slideDown();
     });
 
     // Development: Hide paragraph and show image
     $(".dev-initially-hidden").click(function() {
-        $(".dev-initially-hidden").slideToggle();
-        $(".dev-initially-showing").slideToggle();
+        $(".dev-initially-hidden").slideDown();
+        
     });
 
     // Product Management: Hide image and show paragraph
     $(".p-mgt-initially-showing").click(function() {
         $(".p-mgt-initially-hidden").slideToggle();
-        $(".p-mgt-initially-showing").slideToggle();
+        $(".p-mgt-initially-showing").slideDown();
     });
 
     // Product Management: Hide paragraph and show image
     $(".p-mgt-initially-hidden").click(function() {
-        $(".p-mgt-initially-hidden").slideToggle();
-        $(".p-mgt-initially-showing").slideToggle();
+        $(".p-mgt-initially-hidden").slideDown();
+       
     });
 
     // Hover effect on portfolio images
     $(".portfolio img").hover(function() {
-        $(".col-md-3 img").addClass("image");
+       
+        
         $(".project-name").show();
     });
 

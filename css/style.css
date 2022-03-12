@@ -104,6 +104,7 @@ h3{
 .p-mgt-initially-hidden {
     display: none;
 }
+
 figure,
 .portfolio img {
     cursor: pointer;
@@ -117,6 +118,7 @@ figure,
     width: 100%;
     border-radius: 3px;
 }
+
 .contact {
     padding: 50px;
     background-image: url("../IP3/assets/backgrounds/c_image.jpg");
@@ -203,4 +205,3 @@ footer h5 {
     font-size: 12px;
     line-height: 15px;
 }
-font-family: 'Poppins', sans-serif;
