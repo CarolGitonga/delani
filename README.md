@@ -22,7 +22,7 @@ Open Terminal {Ctrl+Alt+T}
 
 git clone https://github.com/carol-profile/Delani-Studio.git
 
-cd Delani-Studio
+cd Delani studio
 
 code . or atom . based on the text editor you have.
 
